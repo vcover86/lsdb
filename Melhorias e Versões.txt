@@ -13,7 +13,7 @@ Planilha Dashboard:
 	- Volume financeiro aproximado para a variável independente calculado considerando o BETA entre as duas ações indicado na célula G2 da planilha Dashboard
 	
 	
-Versõa 1.4:
+Versão 1.4:
 
 Planilha Dashboard:
 - Incluído gráfico de Bandas de Bollinger (simples) do Par
@@ -21,3 +21,9 @@ Planilha Dashboard:
 Planilha Operações:
 - Incluído cálculo de Bias para avaliar peso da operação
 - Incluído cálculo de Variação do Beta ao longo da operação (célula AD). O objetivo é avaliar o quanto o Beta atual se distanciou do Beta original da Operação
+
+
+Versão 1.5:
+
+Planilha Curva de Juros (nova):
+- Criada planilha Curva de Juros para acompanhamento de contratos DI Nominais em seus vencimentos.
