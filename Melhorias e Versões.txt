@@ -1,3 +1,41 @@
+Database_Backtest v.0: 
+
+Software AWS:
+- Nova versão utilizada para cálculo de regressões
+
+Planilha:
+- Na planilha Resumo clicar em Atualizar e carregar a base (Database_XXXXXX.xlsx) mais recente disponível no repositório
+- Para filtros pode-se utilizar a sugestão de combinações pré-carregadas através do botão Filtrar
+- Escolher o par e clicar no botão ao lado de Dependente para abri-lo na planilha Backtest
+- Para abrir a operação deve-se clicar no botão Abrir na planilha Backtest
+- Na planilha Operação deve-se entrar com os valores de Dep e Indep manualmente para simular ou acompanhar operações
+
+Pré-requisito:
+- Profitchart com funcionalidade RTD habilitada
+- Qualquer outro servidor RTD pode ser utilizado, porém as fórumlas da planilha Database_Backtest devem ser atualizadas para o formato correto
+	
+	
+
+# Old version
+
+Versão 1.5:
+
+Planilha Curva de Juros (nova):
+- Criada planilha Curva de Juros para acompanhamento de contratos DI Nominais em seus vencimentos.
+
+
+
+Versão 1.4:
+
+Planilha Dashboard:
+- Incluído gráfico de Bandas de Bollinger (simples) do Par
+
+Planilha Operações:
+- Incluído cálculo de Bias para avaliar peso da operação
+- Incluído cálculo de Variação do Beta ao longo da operação (célula AD). O objetivo é avaliar o quanto o Beta atual se distanciou do Beta original da Operação
+
+
+
 Versão 1.3:
 
 Planilha Filtros:
@@ -11,19 +49,3 @@ Planilha Dashboard:
 	- Período indicado na célula J3 da planilha Dashboard
 	- Volume financeiro aproximado para a variável dependente indicado na célula J4 da planilha Dashboard
 	- Volume financeiro aproximado para a variável independente calculado considerando o BETA entre as duas ações indicado na célula G2 da planilha Dashboard
-	
-	
-Versão 1.4:
-
-Planilha Dashboard:
-- Incluído gráfico de Bandas de Bollinger (simples) do Par
-
-Planilha Operações:
-- Incluído cálculo de Bias para avaliar peso da operação
-- Incluído cálculo de Variação do Beta ao longo da operação (célula AD). O objetivo é avaliar o quanto o Beta atual se distanciou do Beta original da Operação
-
-
-Versão 1.5:
-
-Planilha Curva de Juros (nova):
-- Criada planilha Curva de Juros para acompanhamento de contratos DI Nominais em seus vencimentos.
