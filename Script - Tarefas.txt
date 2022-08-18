@@ -1,0 +1,29 @@
+vários testes corretos com Coint>98% e R2>0,80
+
+
+Considerar para filtrar pares:
+
+- DesvP (R$) > 1.200
+- DesvP/Dep <= 15% (~)
+- Bias:  0,8 < Bias < 1,2  (~)
+
+As operações parecem fazer sentido na região de 200 períodos, portanto:
+
+- Alterar o Script para testar pares com Cointegração menor que 99% (afinal queremos os pares nos momentos corretos) e R2 > 0,8.
+
+
+A Cointegração alta (> 98%) parece ser mais importante que R2 muito alto -> Testar R2>0,70
+
+
+No script: incluir nas tabelas o Coeficiente Linear, pois será utilizado para controle de operações.
+
+Para controlar uma operação as seguintes informações são necessárias:
+
+- Data exata de início do período utilizado como referência
+- Calcular nova Regressão linear a cada período (diário) atualizado
+- O período atual (hoje) será calculado sempre com os parâmetros da Regressão Linear mais recente (ontem)
+
+
+Fazer:
+
+- Mudar o teste de cointegração para calcular acima de 0,97 e não 0,98, pois perde-se o histórico quando em cálculos novos quando a cointegração baixa de 0,98
