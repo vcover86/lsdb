@@ -1,3 +1,13 @@
+Database_Backtest v.1: 
+
+Software AWS:
+- Correções no gerenciamento de volume da instância
+- Correção na integração com Github
+
+Planilha:
+- Correção da base de ativos
+
+
 Database_Backtest v.0: 
 
 Software AWS:
