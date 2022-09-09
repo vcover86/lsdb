@@ -1,4 +1,4 @@
-Database_Backtest v.1: 
+Database_Backtest v.1 (09/09/2022):
 
 Software AWS:
 - Correções no gerenciamento de volume da instância
